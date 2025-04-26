@@ -73,3 +73,24 @@ python main.py README.md -a "Your Name"
 ```bash
 python main.py README.md -t templates/custom.html
 ```
+
+### Include table of contents:
+```bash
+python main.py README.md --toc
+```
+
+### Use specific markdown extensions:
+```bash
+python main.py README.md -e tables,fenced_code,footnotes
+```
+
+### Convert without styling:
+```bash
+python main.py README.md --no-style
+```
+
+### Use metadata from a JSON file:
+```bash
+python main.py README.md -m metadata.json
+```
+
