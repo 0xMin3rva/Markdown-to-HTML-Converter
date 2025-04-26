@@ -124,7 +124,8 @@ The tool generates clean HTML output with a responsive, GitHub-like style by def
     </ul>
     <!-- More converted HTML content... -->
 </body>
-</html>```
+</html>
+```
 
 ## 🎨 Customization
 
@@ -158,6 +159,16 @@ Example custom template:
         Generated on {date}
     </footer>
 </body>
-</html>```
+</html>
+```
 
 ## Metadata JSON
+
+You can provide additional metadata using a JSON file:
+```bash
+{
+    "author": "Your Name",
+    "description": "A description of the document",
+    "keywords": ["markdown", "html", "converter"]
+}
+```
