@@ -124,6 +124,40 @@ The tool generates clean HTML output with a responsive, GitHub-like style by def
     </ul>
     <!-- More converted HTML content... -->
 </body>
-</html>
+</html>```
 
+## 🎨 Customization
 
+### Custom HTML Templates
+
+You can create your own HTML template by creating a file with placeholders:
+
+- `{title}`: The title extracted from the markdown
+- `{content}`: The converted HTML content
+- `{date}`: The generation date and time
+- `{author_html}`: HTML for the author information
+
+Example custom template:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{title}</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>{title}</h1>
+        <p>By: {author_html}</p>
+    </header>
+    <main>
+        {content}
+    </main>
+    <footer>
+        Generated on {date}
+    </footer>
+</body>
+</html>```
+
+## Metadata JSON
