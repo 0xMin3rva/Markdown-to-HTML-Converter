@@ -12,3 +12,8 @@ A powerful command-line tool that converts Markdown files to beautifully styled 
 - 📋 Include metadata like author name and generation date
 - 🔧 Configure markdown extensions for advanced features
 - 🔍 Extract the title automatically from the first heading
+
+## 📋 Requirements
+
+- Python 3.6 or higher
+- markdown library
