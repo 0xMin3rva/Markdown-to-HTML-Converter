@@ -172,3 +172,7 @@ You can provide additional metadata using a JSON file:
     "keywords": ["markdown", "html", "converter"]
 }
 ```
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
