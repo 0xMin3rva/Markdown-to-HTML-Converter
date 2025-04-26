@@ -22,7 +22,7 @@ A powerful command-line tool that converts Markdown files to beautifully styled 
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/markdown-to-html.git
+git clone https://github.com/0xMin3rva/markdown-to-html.git
 cd markdown-to-html
 ```
 
@@ -42,5 +42,34 @@ chmod +x main.py
 python main.py <input_file.md> [options]
 ```
 
+## ⚙️ Options
 
+- `-o, --output FILE`: Output HTML file (default: input file with .html extension)
+- `-t, --template FILE`: Custom HTML template file
+- `-m, --metadata FILE`: Metadata JSON file for additional information
+- `-a, --author NAME`: Author name to include in the HTML
+- `-e, --extensions LIST`: Comma-separated list of markdown extensions to use
+- `--toc`: Include table of contents
+- `--no-style`: Exclude CSS styling
 
+## 📝 Examples
+
+### Basic conversion:
+```bash
+python main.py README.md
+```
+
+### Specify output file:
+```bash
+python main.py README.md -o docs/index.html
+```
+
+### Include author information:
+```bash
+python main.py README.md -a "Your Name"
+```
+
+### Use a custom HTML template:
+```bash
+python main.py README.md -t templates/custom.html
+```
