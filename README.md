@@ -94,3 +94,36 @@ python main.py README.md --no-style
 python main.py README.md -m metadata.json
 ```
 
+## 📊 Example Output
+
+The tool generates clean HTML output with a responsive, GitHub-like style by default:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Documentation</title>
+    <style>
+        /* CSS styling omitted for brevity */
+    </style>
+</head>
+<body>
+    <div class="metadata">
+        <div>Generated on: 2023-09-12 15:30:45</div>
+        <div>Author: Your Name</div>
+    </div>
+    <h1>Project Documentation</h1>
+    <p>This is a sample markdown document converted to HTML.</p>
+    <h2>Features</h2>
+    <ul>
+        <li>Feature 1</li>
+        <li>Feature 2</li>
+        <li>Feature 3</li>
+    </ul>
+    <!-- More converted HTML content... -->
+</body>
+</html>
+
+
