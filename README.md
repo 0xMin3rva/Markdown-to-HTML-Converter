@@ -17,3 +17,30 @@ A powerful command-line tool that converts Markdown files to beautifully styled 
 
 - Python 3.6 or higher
 - markdown library
+
+## 🚀 Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/markdown-to-html.git
+cd markdown-to-html
+```
+
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+3. Make the script executable (Unix/Linux/macOS):
+```bash
+chmod +x main.py
+```
+
+## 🔍 Usage
+
+```bash
+python main.py <input_file.md> [options]
+```
+
+
+
