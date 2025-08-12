@@ -176,3 +176,5 @@ You can provide additional metadata using a JSON file:
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+Have fun!
