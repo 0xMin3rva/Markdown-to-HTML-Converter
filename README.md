@@ -23,7 +23,7 @@ A powerful command-line tool that converts Markdown files to beautifully styled 
 1. Clone this repository:
 ```bash
 git clone https://github.com/0xMin3rva/Markdown-to-HTML-Converter.git
-cd markdown-to-html
+cd markdown-to-html-Converter
 ```
 
 2. Install requirements:
