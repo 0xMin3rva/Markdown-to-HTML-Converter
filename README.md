@@ -41,13 +41,3 @@ chmod +x main.py
 ```bash
 python main.py <input_file.md> [options]
 ```
-
-## ⚙️ Options
-
-- `-o, --output FILE`: Output HTML file (default: input file with .html extension)
-- `-t, --template FILE`: Custom HTML template file
-- `-m, --metadata FILE`: Metadata JSON file for additional information
-- `-a, --author NAME`: Author name to include in the HTML
-- `-e, --extensions LIST`: Comma-separated list of markdown extensions to use
-- `--toc`: Include table of contents
-- `--no-style`: Exclude CSS styling
